@@ -1,0 +1,27 @@
+# Useful commands
+
+# Rule hits, applied rules.
+show firewall statistics
+
+# Shows log where logging on rule is enabled
+monitor firewall name x
+
+# View interface bandwidth
+monitor bandwidth interface x
+
+# Configuration Mode
+configure
+
+# make changes effective
+commit
+
+# back out the changes
+exit discard 
+
+# make changes permament
+save
+
+# view applied commands
+show configuration commands
+
+
